@@ -1,0 +1,15 @@
+.DS_Store
+
+# Gradle
+.gradle
+/build/
+
+# Java
+*.class
+
+# IntelliJ IDEA
+/out/
+.idea/
+*.iml
+*.iws
+*.ipr
