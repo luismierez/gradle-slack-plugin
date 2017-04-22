@@ -18,22 +18,6 @@ buildscript {
     }
 }
 
-plugins {
-    id "com.luismierez.SlackPlugin" version "0.0.20"
-}
-
-slack {
-    webHook = 'https://hooks.slack.com/services/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'
-    text = 'Test Gradle Plugin'
-    attachments {
-                color = "good"
-                text = "Text Gradle Attachemtn 1"
-            }
-////    attachments = [
-////            'Test Gradle Attachment 1',
-////            'Test Gradle Attachment 2'
-////    ]
-}
 // Apply the groovy plugin to add support for Groovy
 apply plugin: 'com.gradle.plugin-publish'
 apply plugin: 'groovy'
